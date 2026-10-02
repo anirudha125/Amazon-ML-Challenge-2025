@@ -1,6 +1,6 @@
 > Team submission to the Amazon ML Challenge 2025. Forked to my account from the team repo.
 
-> We achieved our best performance by creating a weighted ensemble of predictions from our top-performing NeoBERT, RexBERT, and DeBERTaV3-base models. This ensemble approach secured us the **`AIR 26`** on the public leaderboard of the Amazon ML Challenge.
+> We achieved our best performance by creating a weighted ensemble of predictions from our top-performing NeoBERT, RexBERT, and DeBERTaV3-base models. This ensemble approach secured us the **AIR 26** on the public leaderboard of the Amazon ML Challenge.
 
 # Amazon ML Challenge: Product Price Prediction
 

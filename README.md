@@ -1,5 +1,7 @@
 > Team submission to the Amazon ML Challenge 2025. Forked to my account from the team repo.
 
+> We achieved our best performance by creating a weighted ensemble of predictions from our top-performing NeoBERT, RexBERT, and DeBERTaV3-base models. This ensemble approach secured us the **`AIR 26`** on the public leaderboard of the Amazon ML Challenge.
+
 # Amazon ML Challenge: Product Price Prediction
 
 This repository contains the code and experiments for our solution to the Amazon ML Challenge, where the goal was to predict product prices based on their catalog information.
@@ -66,7 +68,3 @@ We conducted a series of experiments with different models and techniques to fin
 ### 10. RexBERT Continued Fine-Tuning
 - **File:** `src/RexBERT_continueFIneTuning.py`
 - **Description:** This script was used to continue the fine-tuning of a previously trained RexBERT model from a checkpoint. The training continued for 3 more epochs with a very low learning rate of `1e-6` to allow for further convergence without destabilizing the learned weights.
-
-## Final Approach and Result
-
-After evaluating multiple models, we achieved our best performance by creating a weighted ensemble of predictions from our top-performing **NeoBERT**, **RexBERT**, and **DeBERTaV3-base** models. This ensemble approach secured us the **28th rank** on the public leaderboard of the Amazon ML Challenge.
